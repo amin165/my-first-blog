@@ -4,6 +4,7 @@
         <h1><a href="/">Amina's Blog</a></h1>
     </div>
     {% for post in posts %}
+    <QuerySet [<Post: My second post>, <Post: My first post>]>
         <div>
             <p>published: {{ post.published_date }}</p>
             <h2><a href="">{{ post.title }}</a></h2>
